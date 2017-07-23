@@ -1,0 +1,970 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 15:27:10 2017] ***
+compiled with version: 5.4.0 20160609 on 23 July 2017 14:55:24
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www
+writing pidfile to /home/django/www/study.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+error removing unix socket, unlink(): Permission denied [core/socket.c line 198]
+bind(): Address already in use [core/socket.c line 230]
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 15:27:38 2017] ***
+compiled with version: 5.4.0 20160609 on 23 July 2017 14:55:24
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www
+writing pidfile to /home/django/www/study.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Permission denied [core/socket.c line 230]
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 15:28:33 2017] ***
+compiled with version: 5.4.0 20160609 on 23 July 2017 14:55:24
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www
+writing pidfile to /home/django/www/study.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Permission denied [core/socket.c line 230]
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 15:28:55 2017] ***
+compiled with version: 5.4.0 20160609 on 23 July 2017 14:55:24
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www
+writing pidfile to /home/django/www/study.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+set additional group 1003 (NasUser)
+set additional group 1006 (django)
+setuid() to 33
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd885a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+Traceback (most recent call last):
+  File "./study/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ImportError: No module named 'django'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1226)
+spawned uWSGI worker 1 (pid: 1227, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 1227|app: -1|req: -1/1] 182.31.28.11 () {42 vars in 1001 bytes} [Sun Jul 23 15:29:03 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 1227|app: -1|req: -1/2] 182.31.28.11 () {42 vars in 986 bytes} [Sun Jul 23 15:29:04 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/www/study.sock removed.
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 15:47:17 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www
+writing pidfile to /home/django/www/study.pid
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x13b5d80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x13b5d80 pid: 1718 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1718)
+spawned uWSGI worker 1 (pid: 1720, cores: 1)
+[pid: 1720|app: 0|req: 1/1] 182.31.28.11 () {42 vars in 739 bytes} [Sun Jul 23 15:47:21 2017] GET / => generated 1776 bytes in 40 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 1720|app: 0|req: 2/2] 182.31.28.11 () {42 vars in 739 bytes} [Sun Jul 23 15:47:26 2017] GET / => generated 1776 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 1720|app: 0|req: 3/3] 182.31.28.11 () {42 vars in 739 bytes} [Sun Jul 23 15:47:27 2017] GET / => generated 1776 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/django/www/study.sock removed.
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 15:48:43 2017] ***
+compiled with version: 5.4.0 20160609 on 23 July 2017 14:55:24
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www
+writing pidfile to /home/django/www/study.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d15cc0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+Traceback (most recent call last):
+  File "./study/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ImportError: No module named 'django'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1764)
+spawned uWSGI worker 1 (pid: 1765, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/django/www/study.sock removed.
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 15:49:02 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www
+writing pidfile to /home/django/www/study.pid
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25c1d80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25c1d80 pid: 1779 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1779)
+spawned uWSGI worker 1 (pid: 1781, cores: 1)
+[pid: 1781|app: 0|req: 1/1] 182.31.28.11 () {42 vars in 739 bytes} [Sun Jul 23 15:49:06 2017] GET / => generated 1776 bytes in 37 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 1781|app: 0|req: 2/2] 182.31.28.11 () {42 vars in 739 bytes} [Sun Jul 23 15:49:07 2017] GET / => generated 1776 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 1781|app: 0|req: 3/3] 182.31.28.11 () {42 vars in 739 bytes} [Sun Jul 23 15:49:07 2017] GET / => generated 1776 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 1781|app: 0|req: 4/4] 182.31.28.11 () {42 vars in 739 bytes} [Sun Jul 23 15:49:07 2017] GET / => generated 1776 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 1781|app: 0|req: 5/5] 182.31.28.11 () {36 vars in 491 bytes} [Sun Jul 23 15:50:13 2017] GET / => generated 1776 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 1781|app: 0|req: 6/6] 182.31.28.11 () {40 vars in 718 bytes} [Sun Jul 23 15:51:14 2017] GET / => generated 1776 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1781|app: 0|req: 7/7] 182.31.28.11 () {40 vars in 703 bytes} [Sun Jul 23 15:51:15 2017] GET /favicon.ico => generated 1967 bytes in 32 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1781|app: 0|req: 8/8] 182.31.28.11 () {40 vars in 708 bytes} [Sun Jul 23 16:19:31 2017] GET / => generated 1776 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1781|app: 0|req: 9/9] 182.31.28.11 () {40 vars in 693 bytes} [Sun Jul 23 16:19:32 2017] GET /favicon.ico => generated 1967 bytes in 25 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1781|app: 0|req: 10/10] 182.31.28.11 () {40 vars in 718 bytes} [Sun Jul 23 16:23:50 2017] GET / => generated 1776 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+[pid: 1781|app: 0|req: 11/11] 182.31.28.11 () {38 vars in 619 bytes} [Sun Jul 23 16:24:36 2017] GET / => generated 1776 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1781|app: 0|req: 12/12] 182.31.28.11 () {38 vars in 580 bytes} [Sun Jul 23 16:24:36 2017] GET /favicon.ico => generated 1967 bytes in 24 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1781|app: 0|req: 13/13] 182.31.28.11 () {40 vars in 714 bytes} [Sun Jul 23 16:24:46 2017] GET / => generated 1776 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1781|app: 0|req: 14/14] 182.31.28.11 () {40 vars in 699 bytes} [Sun Jul 23 16:24:46 2017] GET /favicon.ico => generated 1967 bytes in 25 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1781|app: 0|req: 15/15] 182.31.28.11 () {38 vars in 619 bytes} [Sun Jul 23 16:25:17 2017] GET / => generated 1776 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1781|app: 0|req: 16/16] 182.31.28.11 () {38 vars in 580 bytes} [Sun Jul 23 16:25:17 2017] GET /favicon.ico => generated 1967 bytes in 26 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1781|app: 0|req: 17/17] 182.31.28.11 () {42 vars in 1001 bytes} [Sun Jul 23 16:30:37 2017] GET / => generated 1776 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1781|app: 0|req: 18/18] 182.31.28.11 () {42 vars in 986 bytes} [Sun Jul 23 16:30:38 2017] GET /favicon.ico => generated 1967 bytes in 25 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1781|app: 0|req: 19/19] 182.31.28.11 () {40 vars in 708 bytes} [Sun Jul 23 16:36:29 2017] GET / => generated 1776 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+...brutally killing workers...
+Gracefully killing worker 1 (pid: 1781)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/django/www
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/django/www/study.sock)
+running /home/django/www/venv/bin/uwsgi
+[uWSGI] getting INI configuration from study.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 16:39:14 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1923ce0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1923ce0 pid: 1779 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1779)
+spawned uWSGI worker 1 (pid: 2295, cores: 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 16:45:16 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www
+writing pidfile to /home/django/www/study.pid
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2565d80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x2565d80 pid: 1199 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1199)
+spawned uWSGI worker 1 (pid: 1201, cores: 1)
+[pid: 1201|app: 0|req: 1/1] 182.31.28.11 () {42 vars in 739 bytes} [Sun Jul 23 16:45:19 2017] GET / => generated 1776 bytes in 40 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1201|app: 0|req: 2/2] 182.31.28.11 () {44 vars in 746 bytes} [Sun Jul 23 16:45:19 2017] GET /favicon.ico => generated 1967 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1201|app: 0|req: 3/3] 182.31.28.11 () {40 vars in 708 bytes} [Sun Jul 23 17:45:34 2017] GET / => generated 1776 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1201|app: 0|req: 4/4] 182.31.28.11 () {40 vars in 693 bytes} [Sun Jul 23 17:45:34 2017] GET /favicon.ico => generated 1967 bytes in 27 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1201|app: 0|req: 5/5] 182.31.28.11 () {40 vars in 718 bytes} [Sun Jul 23 17:45:39 2017] GET /admin => generated 0 bytes in 4 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 1201|app: 0|req: 6/6] 182.31.28.11 () {40 vars in 720 bytes} [Sun Jul 23 17:45:39 2017] GET /admin/ => generated 0 bytes in 70 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 1201|app: 0|req: 7/7] 182.31.28.11 () {40 vars in 757 bytes} [Sun Jul 23 17:45:39 2017] GET /admin/login/?next=/admin/ => generated 1670 bytes in 514 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1201|app: 0|req: 8/8] 182.31.28.11 () {52 vars in 1105 bytes} [Sun Jul 23 17:45:45 2017] POST /admin/login/?next=/admin/ => generated 1845 bytes in 303 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 1201|app: 0|req: 9/9] 182.31.28.11 () {52 vars in 1105 bytes} [Sun Jul 23 17:45:49 2017] POST /admin/login/?next=/admin/ => generated 0 bytes in 311 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 0)
+[pid: 1201|app: 0|req: 10/10] 182.31.28.11 () {46 vars in 953 bytes} [Sun Jul 23 17:45:49 2017] GET /admin/ => generated 2803 bytes in 135 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 1201|app: 0|req: 11/11] 182.31.28.11 () {46 vars in 953 bytes} [Sun Jul 23 17:47:19 2017] GET /admin/ => generated 2803 bytes in 82 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1201)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/django/www
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/django/www/study.sock)
+running /home/django/www/venv/bin/uwsgi
+[uWSGI] getting INI configuration from study.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 17:48:04 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x78fce0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+Traceback (most recent call last):
+  File "./study/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/home/django/www/venv/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "./testapp/models.py", line 4, in <module>
+    class Regist(models.Model):
+  File "./testapp/models.py", line 5, in Regist
+    uNo = models.AutoFieldField(primart_key=True)
+AttributeError: module 'django.db.models' has no attribute 'AutoFieldField'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1199)
+spawned uWSGI worker 1 (pid: 2072, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 2072|app: -1|req: -1/1] 182.31.28.11 () {46 vars in 953 bytes} [Sun Jul 23 17:48:06 2017] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2072|app: -1|req: -1/2] 182.31.28.11 () {46 vars in 953 bytes} [Sun Jul 23 17:48:07 2017] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2072|app: -1|req: -1/3] 182.31.28.11 () {46 vars in 953 bytes} [Sun Jul 23 17:48:08 2017] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2072|app: -1|req: -1/4] 182.31.28.11 () {46 vars in 953 bytes} [Sun Jul 23 17:48:08 2017] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2072|app: -1|req: -1/5] 182.31.28.11 () {46 vars in 953 bytes} [Sun Jul 23 17:48:08 2017] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2072|app: -1|req: -1/6] 182.31.28.11 () {46 vars in 953 bytes} [Sun Jul 23 17:48:08 2017] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2072|app: -1|req: -1/7] 182.31.28.11 () {46 vars in 953 bytes} [Sun Jul 23 17:48:08 2017] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 2072|app: -1|req: -1/8] 182.31.28.11 () {46 vars in 953 bytes} [Sun Jul 23 17:48:49 2017] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM WARNING: unix socket /home/django/www/study.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 18:37:45 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www/study
+writing pidfile to /home/django/www/study.pid
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd00dd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xd00dd0 pid: 2586 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2586)
+spawned uWSGI worker 1 (pid: 2588, cores: 1)
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/urls/resolvers.py", line 362, in resolve
+    for pattern in self.url_patterns:
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/django/www/venv/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./study/urls.py", line 18, in <module>
+    from testapp import view as TestView
+ImportError: cannot import name 'view'
+[pid: 2588|app: 0|req: 1/1] 182.31.28.11 () {46 vars in 953 bytes} [Sun Jul 23 18:37:49 2017] GET /admin/ => generated 84647 bytes in 406 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/urls/resolvers.py", line 362, in resolve
+    for pattern in self.url_patterns:
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/django/www/venv/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./study/urls.py", line 18, in <module>
+    from testapp import view as TestView
+ImportError: cannot import name 'view'
+[pid: 2588|app: 0|req: 2/2] 182.31.28.11 () {46 vars in 953 bytes} [Sun Jul 23 18:37:52 2017] GET /admin/ => generated 84647 bytes in 230 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/urls/resolvers.py", line 362, in resolve
+    for pattern in self.url_patterns:
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/django/www/venv/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./study/urls.py", line 18, in <module>
+    from testapp import view as TestView
+ImportError: cannot import name 'view'
+[pid: 2588|app: 0|req: 3/3] 182.31.28.11 () {42 vars in 841 bytes} [Sun Jul 23 18:38:01 2017] GET / => generated 84267 bytes in 228 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/django/www/study.sock removed.
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 18:39:45 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www/study
+writing pidfile to /home/django/www/study.pid
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7ecdd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7ecdd0 pid: 2748 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2748)
+spawned uWSGI worker 1 (pid: 2750, cores: 1)
+Not Found: /
+[pid: 2750|app: 0|req: 1/1] 182.31.28.11 () {44 vars in 872 bytes} [Sun Jul 23 18:39:49 2017] GET / => generated 2133 bytes in 50 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 2750|app: 0|req: 2/2] 182.31.28.11 () {42 vars in 853 bytes} [Sun Jul 23 18:39:55 2017] GET /admin/ => generated 3458 bytes in 245 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 2750|app: 0|req: 3/3] 182.31.28.11 () {42 vars in 851 bytes} [Sun Jul 23 18:39:59 2017] GET /login => generated 0 bytes in 4 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./testapp/views.py", line 4, in LoginPage
+    return render(request, 'myapp/loginpage.html')
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/loginpage.html
+[pid: 2750|app: 0|req: 4/4] 182.31.28.11 () {42 vars in 853 bytes} [Sun Jul 23 18:39:59 2017] GET /login/ => generated 73134 bytes in 224 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/django/www/study.sock removed.
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 18:41:41 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www/study
+writing pidfile to /home/django/www/study.pid
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf6ddd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xf6ddd0 pid: 2852 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2852)
+spawned uWSGI worker 1 (pid: 2854, cores: 1)
+[pid: 2854|app: 0|req: 1/1] 182.31.28.11 () {44 vars in 884 bytes} [Sun Jul 23 18:41:43 2017] GET /login/ => generated 1866 bytes in 71 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /css/account.css
+[pid: 2854|app: 0|req: 2/2] 182.31.28.11 () {42 vars in 819 bytes} [Sun Jul 23 18:41:43 2017] GET /css/account.css => generated 2196 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /css/main.css
+[pid: 2854|app: 0|req: 3/3] 182.31.28.11 () {42 vars in 813 bytes} [Sun Jul 23 18:41:43 2017] GET /css/main.css => generated 2187 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 2854|app: 0|req: 4/4] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 18:41:43 2017] GET /js/account.js => generated 2190 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /css/account.css
+[pid: 2854|app: 0|req: 5/5] 182.31.28.11 () {42 vars in 819 bytes} [Sun Jul 23 18:41:44 2017] GET /css/account.css => generated 2196 bytes in 25 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /css/main.css
+[pid: 2854|app: 0|req: 6/6] 182.31.28.11 () {42 vars in 813 bytes} [Sun Jul 23 18:41:44 2017] GET /css/main.css => generated 2187 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 2854|app: 0|req: 7/7] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 18:41:44 2017] GET /js/account.js => generated 2190 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Forbidden (CSRF token missing or incorrect.): /login/login_chek.php
+[pid: 2854|app: 0|req: 8/8] 182.31.28.11 () {52 vars in 1119 bytes} [Sun Jul 23 18:41:53 2017] POST /login/login_chek.php => generated 2527 bytes in 43 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/django/www/study.sock removed.
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 18:43:43 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www/study
+writing pidfile to /home/django/www/study.pid
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x262cdd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x262cdd0 pid: 3154 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3154)
+spawned uWSGI worker 1 (pid: 3156, cores: 1)
+[pid: 3156|app: 0|req: 1/1] 182.31.28.11 () {44 vars in 884 bytes} [Sun Jul 23 18:43:45 2017] GET /login/ => generated 1861 bytes in 57 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /css/account.css
+[pid: 3156|app: 0|req: 2/2] 182.31.28.11 () {42 vars in 819 bytes} [Sun Jul 23 18:43:45 2017] GET /css/account.css => generated 2196 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /css/main.css
+[pid: 3156|app: 0|req: 3/3] 182.31.28.11 () {42 vars in 813 bytes} [Sun Jul 23 18:43:45 2017] GET /css/main.css => generated 2187 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3156|app: 0|req: 4/4] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 18:43:45 2017] GET /js/account.js => generated 2190 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /css/account.css
+[pid: 3156|app: 0|req: 5/5] 182.31.28.11 () {42 vars in 819 bytes} [Sun Jul 23 18:43:46 2017] GET /css/account.css => generated 2196 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /css/main.css
+[pid: 3156|app: 0|req: 6/6] 182.31.28.11 () {42 vars in 813 bytes} [Sun Jul 23 18:43:46 2017] GET /css/main.css => generated 2187 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3156|app: 0|req: 7/7] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 18:43:46 2017] GET /js/account.js => generated 2190 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Forbidden (CSRF token missing or incorrect.): /login/loginchek
+[pid: 3156|app: 0|req: 8/8] 182.31.28.11 () {52 vars in 1109 bytes} [Sun Jul 23 18:43:53 2017] POST /login/loginchek => generated 2527 bytes in 25 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 18:45:48 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www/study
+writing pidfile to /home/django/www/study.pid
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x19c5dd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x19c5dd0 pid: 3201 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3201)
+spawned uWSGI worker 1 (pid: 3203, cores: 1)
+Not Found: /
+[pid: 3203|app: 0|req: 1/1] 182.31.28.11 () {36 vars in 492 bytes} [Sun Jul 23 18:45:55 2017] GET / => generated 2133 bytes in 53 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/django/www/study.sock removed.
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 18:51:10 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www/study
+writing pidfile to /home/django/www/study.pid
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x20c1dd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x20c1dd0 pid: 3431 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3431)
+spawned uWSGI worker 1 (pid: 3433, cores: 1)
+[pid: 3433|app: 0|req: 1/1] 182.31.28.11 () {42 vars in 853 bytes} [Sun Jul 23 18:51:20 2017] GET /login/ => generated 1975 bytes in 60 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+Not Found: /css/account.css
+[pid: 3433|app: 0|req: 2/2] 182.31.28.11 () {42 vars in 819 bytes} [Sun Jul 23 18:51:21 2017] GET /css/account.css => generated 2085 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /css/main.css
+[pid: 3433|app: 0|req: 3/3] 182.31.28.11 () {42 vars in 813 bytes} [Sun Jul 23 18:51:21 2017] GET /css/main.css => generated 2076 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3433|app: 0|req: 4/4] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 18:51:21 2017] GET /js/account.js => generated 2079 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /css/account.css
+[pid: 3433|app: 0|req: 5/5] 182.31.28.11 () {42 vars in 819 bytes} [Sun Jul 23 18:51:21 2017] GET /css/account.css => generated 2085 bytes in 27 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /css/main.css
+[pid: 3433|app: 0|req: 6/6] 182.31.28.11 () {42 vars in 813 bytes} [Sun Jul 23 18:51:21 2017] GET /css/main.css => generated 2076 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3433|app: 0|req: 7/7] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 18:51:21 2017] GET /js/account.js => generated 2079 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3433|app: 0|req: 8/8] 182.31.28.11 () {52 vars in 1093 bytes} [Sun Jul 23 18:51:26 2017] POST /login/ => generated 1975 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+Not Found: /css/account.css
+[pid: 3433|app: 0|req: 9/9] 182.31.28.11 () {42 vars in 819 bytes} [Sun Jul 23 18:51:26 2017] GET /css/account.css => generated 2085 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /css/main.css
+[pid: 3433|app: 0|req: 10/10] 182.31.28.11 () {42 vars in 813 bytes} [Sun Jul 23 18:51:26 2017] GET /css/main.css => generated 2076 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3433|app: 0|req: 11/11] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 18:51:26 2017] GET /js/account.js => generated 2079 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /css/account.css
+[pid: 3433|app: 0|req: 12/12] 182.31.28.11 () {42 vars in 819 bytes} [Sun Jul 23 18:51:26 2017] GET /css/account.css => generated 2085 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /css/main.css
+[pid: 3433|app: 0|req: 13/13] 182.31.28.11 () {42 vars in 813 bytes} [Sun Jul 23 18:51:27 2017] GET /css/main.css => generated 2076 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3433|app: 0|req: 14/14] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 18:51:27 2017] GET /js/account.js => generated 2079 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/django/www/study.sock removed.
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 18:56:21 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www/study
+writing pidfile to /home/django/www/study.pid
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9bcdd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x9bcdd0 pid: 3582 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3582)
+spawned uWSGI worker 1 (pid: 3584, cores: 1)
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "./testapp/views.py", line 11, in LoginChek
+    result = regist.object.filter(uId=uid, uPass=upass)[0]
+NameError: name 'regist' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/base.py", line 507, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./testapp/views.py", line 18, in LoginChek
+    return render(request, 'myapp/login.html', { 'text': "로그인실패"})
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/loaders/base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/base.py", line 509, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/base.py", line 571, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'static'. Did you forget to register or load this tag?
+[pid: 3584|app: 0|req: 1/1] 182.31.28.11 () {52 vars in 1093 bytes} [Sun Jul 23 18:56:26 2017] POST /login/ => generated 129263 bytes in 462 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 0)
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "./testapp/views.py", line 11, in LoginChek
+    result = regist.object.filter(uId=uid, uPass=upass)[0]
+NameError: name 'regist' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/base.py", line 507, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./testapp/views.py", line 18, in LoginChek
+    return render(request, 'myapp/login.html', { 'text': "로그인실패"})
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/loaders/base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/base.py", line 509, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/django/www/venv/lib/python3.5/site-packages/django/template/base.py", line 571, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'static'. Did you forget to register or load this tag?
+[pid: 3584|app: 0|req: 2/2] 182.31.28.11 () {44 vars in 884 bytes} [Sun Jul 23 18:56:29 2017] GET /login/ => generated 127948 bytes in 310 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/django/www/study.sock removed.
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 18:58:15 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www/study
+writing pidfile to /home/django/www/study.pid
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xed2dd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xed2dd0 pid: 3644 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3644)
+spawned uWSGI worker 1 (pid: 3646, cores: 1)
+[pid: 3646|app: 0|req: 1/1] 182.31.28.11 () {44 vars in 884 bytes} [Sun Jul 23 18:58:18 2017] GET /login/ => generated 1990 bytes in 77 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3646|app: 0|req: 2/2] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 18:58:18 2017] GET /js/account.js => generated 2079 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3646|app: 0|req: 3/3] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 18:58:19 2017] GET /js/account.js => generated 2079 bytes in 23 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 3646|app: 0|req: 4/4] 182.31.28.11 () {42 vars in 841 bytes} [Sun Jul 23 19:00:02 2017] GET / => generated 2022 bytes in 26 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3646|app: 0|req: 5/5] 182.31.28.11 () {42 vars in 853 bytes} [Sun Jul 23 19:00:09 2017] GET /login/ => generated 1990 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3646|app: 0|req: 6/6] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 19:00:09 2017] GET /js/account.js => generated 2079 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3646|app: 0|req: 7/7] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 19:00:09 2017] GET /js/account.js => generated 2079 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3646|app: 0|req: 8/8] 182.31.28.11 () {44 vars in 884 bytes} [Sun Jul 23 19:00:26 2017] GET /login/ => generated 1990 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3646|app: 0|req: 9/9] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 19:00:26 2017] GET /js/account.js => generated 2079 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3646|app: 0|req: 10/10] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 19:00:26 2017] GET /js/account.js => generated 2079 bytes in 24 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/django/www/study.sock removed.
+*** Starting uWSGI 2.0.15 (64bit) on [Sun Jul 23 19:03:47 2017] ***
+compiled with version: 5.4.0 20160609 on 22 July 2017 22:37:26
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: mysterlee.com
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/django/www/study
+writing pidfile to /home/django/www/study.pid
+detected binary path: /home/django/www/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/django/www/study
+your processes number limit is 13599
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/www/study.sock fd 3
+Python version: 3.5.2 (default, Nov 17 2016, 17:05:23)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xdf2dd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145520 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xdf2dd0 pid: 3839 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3839)
+spawned uWSGI worker 1 (pid: 3841, cores: 1)
+[pid: 3841|app: 0|req: 1/1] 182.31.28.11 () {44 vars in 884 bytes} [Sun Jul 23 19:03:50 2017] GET /login/ => generated 1990 bytes in 76 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3841|app: 0|req: 2/2] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 19:03:50 2017] GET /js/account.js => generated 2079 bytes in 15 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /js/account.js
+[pid: 3841|app: 0|req: 3/3] 182.31.28.11 () {42 vars in 800 bytes} [Sun Jul 23 19:03:51 2017] GET /js/account.js => generated 2079 bytes in 28 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /home/django/www/study.sock removed.

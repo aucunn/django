@@ -1,0 +1,131 @@
+@charset "utf-8";
+#desktop
+{
+	top: 0px;
+	background: url(../image/L6.jpg);
+	background-size: cover;
+	background-position:center;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+#box
+{
+	background-color: rgba(90, 230, 195, 0.4);
+	padding: 30px;
+	margin: auto;
+	margin-top: 10%;
+	display: table;
+	border-radius: 5px;
+}
+
+div.form-body
+{
+	margin-bottom: 20px;
+	
+}
+
+.input-text
+{
+	width: 100%;
+	padding: 0px;
+	border: 0px;
+	background: none;
+	font-size: larger;
+	border-bottom: 1px;
+	border-bottom-color: antiquewhite;
+	border-bottom-style: solid;
+	transition: 0.3s;
+	color: rgba(120, 85, 210, 0.7);
+}
+
+input.input-text:focus
+{
+	border-bottom-color: white;
+}
+
+input:focus
+{
+	outline: none;
+}
+
+.label
+{
+	color: #4bbee6;
+	font-size: larger;
+	transition: 0.3s;
+	transform-origin: left top;
+	display: table;
+	
+}
+
+input[type=text]:focus + .label, input[type=password]:focus + .label
+{
+	transform: scale(0.7) translateY(-60px) !important;
+}
+
+.label label
+{
+	cursor: text;
+}
+
+.form-foot input
+{
+	font-size: medium;
+	color: #4bbee6;
+	cursor: pointer;
+	transition: 0.2s;	
+}
+
+
+.form-foot input:hover
+{	color: #4b5de6;	}
+
+.form-foot input
+{
+	margin-left: 5px;
+	border: none;
+	background: none;
+	font-weight:bold;
+	
+}
+
+input[type=checkbox]
+{	display:none;	}
+
+label.check-label
+{	
+	margin-right: 20px;
+	font-size: medium;
+	color: #4bbee6;
+	cursor: pointer;
+}
+
+label.check-label::before 
+{
+	display: inline-block;
+	margin-right: 10px;
+	font-family: FontAwesome;
+	font-size: 20px;
+	color: rgba(4, 120, 193,0.2);			
+	transition: 0.2s;			
+	transform: scale(0.8);
+	content: "\f0c8";
+}
+
+input#check + label.check-label:hover::before 
+{	transform: scale(1);	}
+
+label.check-label:active::before 
+{	transform: scale(1.5) !important;	}
+
+input#check:checked + label.check-label::before 
+{
+	display: inline-block; 
+	font-family: FontAwesome; 
+	color:#0478c1;			
+	transform: scale(1);
+	content:"\f14a";
+}

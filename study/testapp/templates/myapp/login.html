@@ -1,0 +1,63 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://use.fontawesome.com/11f189082a.js"></script>
+	
+	
+	<link rel="stylesheet" href="{% static 'myapp/account.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'myapp/main.css' %}">
+	<script type="text/javascript" src="{% static 'myapp/account.js' %}"></script>
+	
+	<style>
+	</style>
+	
+	<script>
+	
+		function clickSubmit()
+		{
+			if(document.getElementById('id').value.length <= 0)
+				document.getElementById('id').focus();
+			else if(document.getElementById('pass').value.length <= 0)
+				document.getElementById('pass').focus();
+			else
+				document.getElementById('account').submit();
+			
+		}
+	
+	</script>
+	
+</head>
+<body>
+	<div id="desktop">
+	</div>
+	
+	<div id="box">
+		<form id="account" method="post" action="" onsubmit="return false" autocomplete="off">{% csrf_token %}
+			<div class="form-body">				
+				<input type="text" id="id" name="id" class="input-text" onkeydown='keyenter(0)' onblur="labelAction('id')">
+				<div id="idlabel" class="label" style="transform: scale(1) translateY(-25px);">
+					<label for="id">계정</label>
+				</div>
+			</div>
+			<div class="form-body">				
+				<input type="password" id="pass" name="pass" class="input-text" onkeydown='submitkey()' onblur="labelAction('pass')">
+				<div id="passlabel" class="label" style="transform: scale(1) translateY(-25px);">
+					<label for="pass">비밀번호</label>
+				</div>
+			</div>			
+			<div class="form-foot">
+				<input type="checkbox" name="auto" value="1" id="check">
+				<label for="check" class="check-label">자동로그인</label>
+				<input type="button" onclick="location.href='../regist.html'" value="회원가입">
+				<input type="submit" onclick="clickSubmit()" value="로그인">
+			<div>
+			
+			
+		</form>
+	</div>
+<p>{{ text }}<p>
+</body>
+</html>
